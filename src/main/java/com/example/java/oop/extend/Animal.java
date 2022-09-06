@@ -1,4 +1,4 @@
-package com.example.java.oop;
+package com.example.java.oop.extend;
 
 public class Animal {
     private String name;
