@@ -16,6 +16,6 @@ class inheritAbstract extends AbstractTest{
 
     @Override
     void eat() {
-
+        System.out.println("该吃饭了！");
     }
 }
