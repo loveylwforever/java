@@ -1,7 +1,5 @@
 package com.example.java.basic.datatype;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 // 基本两类型
 public class PrimitiveType {
     public static void main(String[] args) {

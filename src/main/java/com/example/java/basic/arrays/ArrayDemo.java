@@ -10,8 +10,8 @@ public class ArrayDemo {
         doubles1[1] = 2.2;
         doubles1[2] = 3.3;
         // 普通循环
-        for (int i = 0; i < doubles.length; i++) {
-            System.out.println(doubles[i]);
+        for (double aDouble : doubles) {
+            System.out.println(aDouble);
         }
 
         // JDK 1.5 引进了一种新的循环类型，被称为 For-Each 循环或者加强型循环。
