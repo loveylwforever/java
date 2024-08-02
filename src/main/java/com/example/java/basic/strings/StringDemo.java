@@ -7,11 +7,19 @@ public class StringDemo {
         String s3 = s1;                    // 相同引用
         String s4 = new String("Jamie");   // String 对象创建
         String s5 = new String("Jamie");   // String 对象创建
+
+
         System.out.println(s1 == s2);
         System.out.println(s3 == s1);
         System.out.println(s3 == s2);
         System.out.println(s4 == s1);
         System.out.println(s4 == s5);
+        // 放入常量池，简称入池操作
+        s5.intern();
+        System.out.println(s5 == s1);
+        s5=s5.intern();
+        System.out.println(s5 == s1);
+
 
         System.out.println("s1 的长度是：" + s1.length());
 
